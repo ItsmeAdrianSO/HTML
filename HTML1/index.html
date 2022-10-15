@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html > <!--Etiqueta general del codigo-->
+<head>
+    <title>My first web site</title> <!--Titulo de la pagina-->
+    <style>
+        tabble, th, td {
+            border: 1px solid black ;
+        }
+    </style>
+</head>
+<body>
+
+    <table style="width: 500px ;">
+        <thead>
+            <tr> 
+                <th> Producto </th>
+               <th> Precio </th>    
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Chicharron</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Jamon de pavo</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Alcachofa barbacoa</td>
+                <td>Gratis</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Total</td>
+            <td>60</td>
+        </tfoot>
+    </table>
+    
+
+    <ul> <!--Lista no ordenada-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+
+    <ol><!--Lista ordenada-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">Subelemento 1</li>
+                <li style="list-style-type: lower-alpha;">Subelemento 2</li>
+                <li style="list-style-type: lower-alpha;">Subelemento 3</li>
+                <li style="list-style-type: lower-alpha;">Subelemento 4</li>
+            </ol>
+        </li>
+    </ol>
+
+
+
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <br> <!--Salto de linea-->
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <br>
+        <textarea cols="50" rows="10" id="text" placeholder="Agregar comentario" name="comentario">Valor por defecto</textarea>
+        <br>
+        <button type="button">  Tipo boton</button>
+        <button type="reset">  Tipo reset</button>    <!--Botones de diferentes tipo y funciones-->
+        <button type="submit">  Tipo submit </button>
+    </form>
+
+
+    <h1>Tengo el poder absoluto y me la pela</h1> <!-- Etiqueta h1 titulo más grande-->
+
+    <h6>Viva Costa Rica</h6> <!-- Etiqueta h6 titulo más pequeño-->
+    <p>Si solo puedes hacer una cosa, hasta la perfeccion. Perfeccionala hasta el limite maximo</p>
+    <hr> <!--Agrega una linea para dividir el contenido de la pagina-->
+    <h2>Prueba de spam</h2>
+    <p> <!--Parrafo con contenido de la pagina-->
+       Escribire un texto largo para probar <span style='color: darkgoldenrod;'>la etiqueta de sapm</span> 
+       pero no se que mas escribir Acabo de hacer un salto de linea </p>
+
+    <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Visita este video</video></a> <!--Agrega un link-->
+    <br> 
+    <img src="img/Shield liger.jpg" width="600" /> <!--Agrega una imagen-->
+   
+</body>
+</html> <!--Etiqueta de cierre del codigo-->
